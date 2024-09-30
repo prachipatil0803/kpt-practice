@@ -9,15 +9,15 @@ upstream:
   git:
     repo: https://github.com/GoogleContainerTools/kpt
     directory: /package-examples/wordpress
-    ref: v0.9
+    ref: v0.10
   updateStrategy: resource-merge
 upstreamLock:
   type: git
   git:
     repo: https://github.com/GoogleContainerTools/kpt
     directory: /package-examples/wordpress
-    ref: package-examples/wordpress/v0.9
-    commit: b9ea0bca019dafa9f9f91fd428385597c708518c
+    ref: package-examples/wordpress/v0.10
+    commit: d6353339f0380a4af1754ce9fbeb5146f8befe75
 info:
   emails:
     - kpt-team@google.com
